@@ -5,28 +5,36 @@
 }
 
 .container {
-  background-color: white;
   width: 100%;
   margin-top: 50px;
+}
+.container .col-12,
+.container .col-sm-12 {
+  margin-top: 20px;
+  position: relative;
+  width: 100%;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 
 #example1 {
   border: 0px solid;
-  padding: 0Px;
+  padding: 0px;
   box-shadow: 0px 4px 5px #888888;
 }
 
-#example2 {
-  border: 1px solid;
-  padding: 1px;
-  box-shadow: 1px 7px 18px #888888;
+.size {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.size2 {
+  font-size: 16px;
 }
 
 .header {
-  width: 100%;
   height: 700px;
-  background-size: cover;
-  background-position: center center;
+  background-size: contain;
   background-repeat: no-repeat;
   background-image: url("../images/banner@2x.jpg");
   margin-top: 10px;
@@ -37,11 +45,17 @@
   margin-right: 100px;
 }
 .header .sign {
+  width: 67px;
   font-size: 13px;
   color: green;
   border: 2px solid green;
   border-radius: 50px;
-  margin-right: 100px;
+  margin-right: 170px;
+}
+.header text {
+  text-align: center;
+  width: 70px;
+  margin-top: 10px;
 }
 .header .company {
   color: green;
@@ -98,8 +112,8 @@
 }
 .content .today .part2-right img {
   width: 500.25px;
-  height: 320.25px;
-  margin-left: 40px;
+  height: 400.25px;
+  margin-left: 200px;
 }
 .content .today .part2-left {
   margin-top: 100px;
@@ -116,16 +130,18 @@
   height: 47.25px;
 }
 .content .today .word {
+  width: 500.25px;
+  height: 400.25px;
   margin-top: 145px;
-  font-size: 13px;
-  margin-left: -100px;
+  font-size: 16px;
+  margin-left: -120px;
 }
 .content .today .word .start1 {
   text-align: center;
-  width: 103px;
+  width: 121px;
   height: 39px;
   margin-top: 0px;
-  font-size: 14px;
+  font-size: 17px;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   color: white;
   border: 1px solid green;
@@ -137,66 +153,248 @@
 }
 .content .daily-report .part3-left {
   width: 555px;
-  height: 354px;
+  height: 450px;
   margin-top: 100px;
 }
 .content .daily-report .part3-left img {
   width: 500.25px;
-  height: 350.25px;
-  margin-right: 100px;
+  height: 400.25px;
+  margin-left: 0px;
 }
 .content .daily-report .part3-right {
+  text-align: left;
   margin-top: 100px;
-  width: 58px;
-  height: 50px;
+  width: 450px;
+  height: 350px;
 }
-.content .daily-report .part3-right .icon-part3 {
-  margin-left: 40px;
-  font-size: 36px;
+.content .daily-report .part3-right .text-one {
   font-size: 36px;
 }
-.content .daily-report .part3-right p {
-  margin-left: 40px;
+.content .daily-report .part3-right .text-one .ti-write {
+  margin-right: 15px;
 }
 .content .daily-report .part3-word {
-  margin-top: -55px;
-  margin-left: 180px;
+  width: 500px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.start2 {
+  text-align: center;
+  width: 121px;
+  height: 42px;
+  margin-top: 10px;
+  font-size: 15px;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  color: white;
+  border: 1px solid green;
+  border-radius: 40px;
 }
 
 .rectangle {
-  background-color: #5f513f;
+  text-align: center;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
   width: 100%;
   height: 322px;
 }
+.rectangle #circle {
+  margin-left: 144px;
+  text-align: center;
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  margin-top: 40px;
+  border-color: #ffffff;
+}
+.rectangle #circle .in-icon {
+  font-size: 36px;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 50px;
+}
+.rectangle #circle1 {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  background-image: linear-gradient(to left, #b4ec51, #429321);
+  border: 2px solid white;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  margin: -20px 0px 15px 175px;
+}
+.rectangle .word-line {
+  margin-left: 175px;
+}
 
 .members {
-  background-color: darkgray;
   width: 100%;
   height: 576px;
+}
+.members img {
+  margin-top: 50px;
+  height: 400.25px;
+  width: 500.25px;
+}
+
+.part4-right .one {
+  margin-top: 50px;
+  font-size: 36px;
+}
+.part4-right .one .ti-user {
+  margin-right: 15px;
+}
+
+.ti-check-box {
+  color: #429321;
+  margin-right: 15px;
+  font-size: 25px;
+}
+
+.start3 {
+  text-align: center;
+  width: 121px;
+  height: 42px;
+  margin-top: 20px;
+  font-size: 15px;
+  background-image: linear-gradient(to right, #429321, #b4ec51);
+  color: white;
+  border: 1px solid green;
+  border-radius: 40px;
 }
 
 .customers {
-  background-color: darksalmon;
   width: 100%;
   height: 578px;
 }
+.customers img {
+  margin-left: 25px;
+  width: 500.25px;
+  height: 400.25px;
+}
+
+.part5-left .one1 {
+  margin-top: 5px;
+  font-size: 36px;
+}
+.part5-left .one1 .ti-face-smile {
+  margin-right: 15px;
+}
+
+.ti-lock {
+  color: #2be72b;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.ti-cup {
+  color: #2be72b;
+  margin-top: 10px;
+  font-size: 25px;
+  margin-right: 15px;
+}
+
+.ti-stats-up {
+  color: #2be72b;
+  font-size: 25px;
+  margin-right: 15px;
+}
 
 .our-customer {
-  width: 100%;
+  color: white;
   height: 544px;
+  background-size: cover;
+  background: url("../images/rectangle3.png") no-repeat;
+  margin-top: 10px;
+  font: 16px;
+}
+.our-customer .fone2 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 10px;
+}
+.our-customer .justify-content-center {
+  margin-top: 50px;
+}
+.our-customer p {
+  margin-top: 13px;
+}
+.our-customer .font-size {
+  margin-left: 13px;
+  font-size: 11px;
+  margin-top: -20px;
+}
+.our-customer .in-our {
+  margin-top: 50px;
+}
+.our-customer .in-our1 {
+  font-size: 60px;
+  color: #39474e;
+  margin-top: -10px;
+}
+.our-customer .in-our2 {
+  color: #506169;
+  margin-top: 40px;
+  font-size: 16px;
+  width: 650px;
+}
+.our-customer .in-our3 {
+  margin-top: 80px;
+  font-size: 60px;
+  color: #39474e;
+  margin-left: -30px;
+}
+
+.container {
+  margin-top: 30px;
 }
 
 .project {
-  background-color: #f1b02c;
   width: 100%;
   height: 576px;
 }
+.project .img {
+  width: 570px;
+  height: 400px;
+}
+.project .footer-content {
+  font-size: 36px;
+}
+.project .footer-content .ti-calendar {
+  margin-right: 15px;
+}
 
 .footer {
-  background-color: black;
+  background-color: #39474e;
   width: 100%;
   height: 179px;
   float: left;
+}
+.footer .justify-content-center {
+  text-align: center;
+  color: white;
+  margin-top: 30px;
+}
+.footer .justify-content-center .company {
+  font-size: 25px;
+  color: #2be72b;
+}
+.footer .justify-content-center .names {
+  font-size: 12px;
+  color: #2be72b;
+}
+.footer .justify-content-center .in-names {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+.radical {
+  color: #2be72b;
+  margin-top: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

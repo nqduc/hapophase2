@@ -1,4 +1,4 @@
-body {
+html, body {
   overflow-x: hidden;
 }
 
@@ -8,13 +8,19 @@ body {
 .example2 > div:nth-child(4) {
   display: none;
 }
-.example2 > div:nth-child(7) {
+.example2 > div:nth-child(6) {
   display: none;
 }
-.example2 > div:nth-child(9) {
+.example2 > div:nth-child(8) {
   display: none;
 }
-.example2 > div:nth-child(12) {
+.example2 > div:nth-child(10) {
+  display: none;
+}
+.example2 > div:nth-child(13) {
+  display: none;
+}
+.example2 > div:nth-child(15) {
   display: none;
 }
 
@@ -51,6 +57,7 @@ body {
 
 .size2 {
   font-size: 15px;
+  text-align: justify;
 }
 
 .header {
@@ -59,7 +66,6 @@ body {
   background-repeat: no-repeat;
   background-image: url("../images/banner@2x.jpg");
   background-size: 100% 100%;
-  margin-top: 10px;
   font: 16px;
 }
 .header .names {
@@ -216,6 +222,7 @@ body {
   text-align: center;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   width: 100%;
+  height: 322px;
   color: white;
 }
 .rectangle .circle {
@@ -249,7 +256,8 @@ body {
 }
 
 .part4-right {
-  padding-left: 25px;
+  margin-right: 15px;
+  margin-left: -30px;
 }
 .part4-right .one {
   margin-top: 50px;
@@ -257,6 +265,10 @@ body {
 }
 .part4-right .one .ti-user {
   margin-right: 15px;
+}
+
+.part4-left {
+  margin-left: 15px;
 }
 
 .ti-check-box {
@@ -280,9 +292,10 @@ body {
 .customers {
   width: 100%;
 }
-.customers img {
+.customers .part5-right img {
   width: 100%;
-  margin-left: -15px;
+  margin-left: -30px;
+  margin-right: 15px;
 }
 
 .part5-left {
@@ -373,6 +386,7 @@ body {
   margin-top: 40px;
   font-size: 16px;
   width: 650px;
+  text-align: justify;
 }
 .our-customer .in-our3 {
   margin-top: 80px;
@@ -386,7 +400,13 @@ body {
 }
 
 .project {
+  height: 500px;
   width: 100%;
+  margin-top: 100px;
+}
+.project .project-right {
+  margin-left: -40px;
+  margin-right: 35px;
 }
 .project .in-project1 {
   margin-top: -40px;
@@ -401,10 +421,16 @@ body {
   margin-right: 15px;
 }
 
+.project-left {
+  margin-left: -1;
+}
+.project-left img {
+  width: 100%;
+}
+
 .footer {
   background-color: #39474e;
   width: 100%;
-  height: 179px;
   float: left;
 }
 .footer .justify-content-center {
@@ -438,8 +464,7 @@ body {
   padding-right: 40px;
   margin-left: 40px;
 }
-
-.radical {
+.footer .radical {
   color: #2be72b;
   margin-top: 55px;
   margin-left: -5px;

@@ -1,4 +1,4 @@
-body {
+html,body {
   overflow-x: hidden;
 }
 
@@ -9,13 +9,19 @@ body {
   > div:nth-child(4){
     display:none;
   }
-  > div:nth-child(7){
+  > div:nth-child(6){
     display:none;
   }
-  > div:nth-child(9){
+  > div:nth-child(8){
     display:none;
   }
-  > div:nth-child(12){
+  > div:nth-child(10){
+    display:none;
+  }
+  > div:nth-child(13){
+    display:none;
+  }
+  > div:nth-child(15){
     display:none;
   }
 }
@@ -48,6 +54,7 @@ body {
 }
 .size2 {
   font-size: 15px;
+  text-align: justify;
 }
 .header {
   height: 700px;
@@ -55,7 +62,6 @@ body {
   background-repeat: no-repeat;
   background-image: url("../images/banner@2x.jpg");
   background-size: 100% 100%;
-  margin-top: 10px;
   font: 16px;
   .names {
     margin-top: 10px;
@@ -206,6 +212,7 @@ body {
   text-align: center;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   width: 100%;
+  height: 322px;
   color: white;
   .circle {
     width: 100px;
@@ -227,7 +234,6 @@ body {
     padding-top: 5px;
     margin: -18px  0 20px 32px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
-
   }
 }
 .members {
@@ -238,7 +244,8 @@ body {
   }
 }
 .part4-right {
-  padding-left: 25px;
+  margin-right: 15px;
+  margin-left: -30px;
   .one {
     margin-top: 50px;
     font-size: 36px;
@@ -246,6 +253,9 @@ body {
       margin-right: 15px;
     }
   }
+}
+.part4-left {
+  margin-left: 15px;
 }
 .ti-check-box {
   color: #429321;
@@ -264,11 +274,14 @@ body {
   border-radius: 40px;
 }
 .customers {
-    width: 100%;
+  width: 100%;
+  .part5-right{
     img {
-        width: 100%;
-        margin-left: -15px;
+      width: 100%;
+      margin-left: -30px;
+      margin-right: 15px;
     }
+  }
 }
 .part5-left {
   margin-left: -1px;
@@ -353,6 +366,7 @@ body {
         margin-top: 40px;
         font-size: 16px;
         width: 650px;
+        text-align: justify;
     }
     .in-our3 {
         margin-top: 80px;
@@ -365,7 +379,13 @@ body {
     margin-top: 30px;
 }
 .project {
+    height: 500px;
     width: 100%;
+    margin-top: 100px;
+    .project-right {
+      margin-left: -40px;
+      margin-right: 35px;
+    }
     .in-project1 {
       margin-top: -40px;
     }
@@ -373,16 +393,21 @@ body {
         width: 100%;
     }
     .footer-content {
-        font-size: 36px;
-        .ti-calendar {
-        margin-right: 15px;
-        }
+      font-size: 36px;
+    .ti-calendar {
+    margin-right: 15px;
     }
+  }
+}
+.project-left {
+  margin-left: -1;
+  img {
+    width: 100%;
+  }
 }
 .footer {
   background-color: #39474e;
   width: 100%;
-  height: 179px;
   float: left;
   .justify-content-center {
       text-align: center;
@@ -414,11 +439,12 @@ body {
       width: 100%;
       padding-right: 40px;
       margin-left: 40px;
-      }
+    }
   }
-}
+
 .radical {
     color: rgb(43, 231, 43);
     margin-top: 55px;
     margin-left: -5px;
+}
 }

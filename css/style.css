@@ -127,6 +127,7 @@ html, body {
   background-image: linear-gradient(to right, #429321, #b4ec51);
   color: white;
   border: 1px solid green;
+  box-shadow: 2px 3px 5px #D8D8D8;
   border-radius: 60px;
 }
 
@@ -166,7 +167,7 @@ html, body {
   font-size: 16px;
   margin-left: -570px;
 }
-.content .today .word .start1 {
+.content .today .word .start-on {
   text-align: center;
   width: 121px;
   height: 42px;
@@ -206,7 +207,7 @@ html, body {
   font-size: 16px;
 }
 
-.start2 {
+.start-two {
   text-align: center;
   width: 121px;
   height: 42px;
@@ -277,7 +278,7 @@ html, body {
   font-size: 25px;
 }
 
-.start3 {
+.start-three {
   text-align: center;
   width: 121px;
   height: 42px;
@@ -428,43 +429,53 @@ html, body {
   width: 100%;
 }
 
-.footer {
+.footer-mb {
   background-color: #39474e;
   width: 100%;
   float: left;
 }
-.footer .justify-content-center {
-  text-align: center;
+.footer-mb .justify-content-center {
   color: white;
-  margin-top: 30px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
 }
-.footer .justify-content-center .company {
+.footer-mb .justify-content-center .namae {
+  color: #2be72b;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.footer-mb .justify-content-center .on-footer {
+  margin-left: 15px;
+}
+.footer-mb .justify-content-center .company {
   font-size: 25px;
   color: #2be72b;
 }
-.footer .justify-content-center .names {
+.footer-mb .justify-content-center .names {
   font-size: 12px;
   color: #2be72b;
 }
-.footer .justify-content-center .name {
+.footer-mb .justify-content-center .name {
   font-size: 12px;
   color: #2be72b;
 }
-.footer .justify-content-center .in-names {
+.footer-mb .justify-content-center .in-names {
   margin-top: 8px;
   font-size: 12px;
 }
-.footer .justify-content-center .in-name {
+.footer-mb .justify-content-center .in-name {
   margin-top: 8px;
   font-size: 12px;
 }
-.footer .justify-content-center .col-12 .col-sm-12 {
+.footer-mb .justify-content-center .col-12 .col-sm-12 {
   position: relative;
   width: 100%;
   padding-right: 40px;
   margin-left: 40px;
 }
-.footer .radical {
+
+.radical {
   color: #2be72b;
   margin-top: 55px;
   margin-left: -5px;

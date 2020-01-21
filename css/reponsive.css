@@ -108,15 +108,25 @@
 
   .start {
     text-align: center;
-    width: 145px;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 25;
-    margin-top: 15px;
+    width: 144px;
+    height: 44px;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top: 20px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
     border: 1px solid green;
-    border-radius: 60px;
+    color: white;
+    box-shadow: 2px 3px 5px #D8D8D8;
+    border-radius: 40px;
+    border: none;
+  }
+  .start a:hover {
+    background: green;
+    color: #fff;
+  }
+  .start:focus, .start:active {
+    outline: 0 !important;
+    box-shadow: none;
   }
 
   .today .in-today {
@@ -145,20 +155,6 @@
     text-align: justify;
     width: 250px;
     padding-right: 30px;
-  }
-
-  .start-on {
-    text-align: center;
-    width: 145px;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 25;
-    margin-top: 35px;
-    margin-left: 25px;
-    background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
-    border: 1px solid green;
-    border-radius: 40px;
   }
 
   .daily-report .in-report {
@@ -201,18 +197,6 @@
     margin-top: 30px;
     width: 100%;
   }
-  .members .start-three {
-    text-align: center;
-    width: 145px;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 25;
-    margin-top: 40px;
-    background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
-    border: 1px solid green;
-    border-radius: 40px;
-  }
 
   .customers .in-customers {
     text-align: center;
@@ -238,18 +222,6 @@
     margin-right: 25px;
     font-size: 15px;
     text-align: justify;
-  }
-  .customers .start-four {
-    text-align: center;
-    width: 145px;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 25;
-    margin-top: 40px;
-    background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
-    border: 1px solid green;
-    border-radius: 40px;
   }
 
   .project {
@@ -280,20 +252,6 @@
     width: 100%;
     margin-top: -20px;
     margin-left: 15px;
-  }
-  .project .start-five {
-    text-align: center;
-    width: 145px;
-    height: 45px;
-    font-size: 18px;
-    font-weight: 25;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    margin-left: 0px;
-    background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
-    border: 1px solid green;
-    border-radius: 40px;
   }
 
   .footer {
@@ -326,17 +284,11 @@
     margin-top: 11px;
     font-size: 11px;
   }
-  .footer .justify-content-center .col-12 .col-sm-12 {
+  .footer .justify-content-center .footer-on {
     position: relative;
     width: 100%;
-    padding-right: 0px;
-    margin-left: 0px;
-  }
-
-  .radical {
-    color: #2be72b;
-    margin-top: 55px;
-    margin-left: -5px;
+    padding-right: 0;
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -393,6 +345,12 @@
     background-image: url("../images/rectangle2.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+  }
+  .header .in-head {
+    margin-top: 20px;
+  }
+  .header .icons {
+    font-size: 18px;
   }
   .header .names {
     margin-top: 1px;
@@ -451,21 +409,31 @@
 
   .lorem {
     text-align: center;
-    font-size: 9px;
-    margin-top: -10px;
+    font-size: 8px;
+    margin-top: 0;
   }
 
   .start {
     text-align: center;
     width: 144px;
-    height: 44px;
+    height: 40px;
     font-size: 18px;
-    font-weight: 25;
-    margin-top: 5px;
+    font-weight: 100;
+    margin-top: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
     border: 1px solid green;
+    color: white;
+    box-shadow: 2px 3px 5px #D8D8D8;
     border-radius: 60px;
+    border: none;
+  }
+  .start a:hover {
+    background: green;
+    color: #fff;
+  }
+  .start:focus, .start:active {
+    outline: 0 !important;
+    box-shadow: none;
   }
 
   .today .in-today {
@@ -500,19 +468,6 @@
     height: 168px;
     padding-left: 7.69565217%;
     padding-right: 7.69565217%;
-  }
-
-  .start-one {
-    text-align: center;
-    width: 144px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 100;
-    margin-top: 45px;
-    background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
-    border: 1px solid green;
-    border-radius: 40px;
   }
 
   .daily-report .in-report {
@@ -721,19 +676,6 @@
     margin-left: 10px;
     padding-right: 25px;
   }
-  .project .start-five {
-    text-align: center;
-    width: 144px;
-    height: 44px;
-    font-size: 18px;
-    font-weight: 100;
-    margin-top: 20px;
-    margin-left: 0px;
-    background-image: linear-gradient(to right, #429321, #b4ec51);
-    color: white;
-    border: 1px solid green;
-    border-radius: 40px;
-  }
 
   .footer-mb {
     background-color: #39474e;
@@ -773,27 +715,19 @@
     margin-top: 11px;
     font-size: 11px;
   }
-  .footer-mb .justify-content-center .col-12 .col-sm-12 {
-    position: relative;
-    width: 100%;
-    padding-right: 0px;
-    margin-left: 0px;
-  }
-
-  .margin {
+  .footer-mb .justify-content-center .margin {
     margin-top: 10px;
     text-align: left;
   }
-  .margin .icon {
+  .footer-mb .justify-content-center .copy {
+    margin-top: 10px;
+    font-size: 13px;
+  }
+  .footer-mb .justify-content-center .icon {
     color: #2be72b;
     padding-left: 20px;
     font-size: 14px;
     margin-bottom: -10px;
-  }
-
-  .copy {
-    margin-top: 10px;
-    font-size: 13px;
   }
 }
 

@@ -1,42 +1,42 @@
 @media only screen and (max-width:768px) {
-  .example2{
-    > div:nth-child(2){
+  .example2 {
+    > div:nth-child(2) {
       display: block;
     }
-    > div:nth-child(1){
+    > div:nth-child(1) {
       display: none;
     }
-    > div:nth-child(3){
+    > div:nth-child(3) {
       display: none;
     }
-    > div:nth-child(4){
+    > div:nth-child(4) {
       display: block;
     }
-    > div:nth-child(5){
+    > div:nth-child(5) {
       display: block;
     }
-    > div:nth-child(6){
+    > div:nth-child(6) {
       display: none;
     }
-    > div:nth-child(7){
+    > div:nth-child(7) {
       display: none;
     }
-    > div:nth-child(8){
+    > div:nth-child(8) {
       display: block;
     }
-    > div:nth-child(9){
+    > div:nth-child(9) {
       display: none;
     }
-    > div:nth-child(10){
+    > div:nth-child(10) {
       display: block;
     }
-    > div:nth-child(11){
+    > div:nth-child(11) {
       display: block;
     }
-    > div:nth-child(12){
+    > div:nth-child(12) {
       display: none;
     }
-    > div:nth-child(13){
+    > div:nth-child(13) {
       display: block;
     }
   }
@@ -55,10 +55,11 @@
     }
 
     .sign {
-      width: 70px;
-      font-size: 13px;
-      color: green;
-      border: 2px solid green;
+      width: 82px;
+      height: 36px;
+      font-size: 12px;
+      color: #b4ec51;
+      border: 2px solid #b4ec51;
       border-radius: 50px;
       margin-right: 111px;
     }
@@ -101,8 +102,9 @@
       margin: 40px 15px 0 15px;
     }
 
-    .icon {
+    .icons {
       font-size: 35px;
+      margin-top: 5px;
     }
 
     .text1 {
@@ -277,6 +279,13 @@
         margin-right: 25px;
         font-size: 15px;
         text-align: justify;
+
+        .icon-on {
+          margin-left: 10px;
+          margin-right: 10px;;
+          font-size: 25px;
+          color: #429321;
+        }
       }
     }
   }
@@ -328,7 +337,7 @@
     .justify-content-center {
       text-align: center;
       color: white;
-      margin-top: 50px;
+      margin-top: -30px;
 
       .company {
         font-size: 25px;
@@ -360,55 +369,60 @@
         padding-right: 0;
         margin-left: 0;
       }
+      .radical {
+        color: rgb(43, 231, 43);
+        margin-top: 65px;
+        margin-left: -5px;
+      }
     }
   }
 }
 
 @media only screen and (max-width:480px) {
   .example2{
-      > div:nth-child(2){
+      > div:nth-child(2) {
         display: block;
       }
-      > div:nth-child(1){
+      > div:nth-child(1) {
         display: none;
       }
-      > div:nth-child(3){
+      > div:nth-child(3) {
         display: none;
       }
-      > div:nth-child(4){
+      > div:nth-child(4) {
         display: block;
       }
-      > div:nth-child(5){
+      > div:nth-child(5) {
         display: none;
       }
-      > div:nth-child(6){
+      > div:nth-child(6) {
         display: block;
       }
-      > div:nth-child(7){
+      > div:nth-child(7) {
         display: none;
       }
-      > div:nth-child(8){
+      > div:nth-child(8) {
         display: block;
       }
-      > div:nth-child(9){
+      > div:nth-child(9) {
         display: none;
       }
-      > div:nth-child(10){
+      > div:nth-child(10) {
         display: none;
       }
-      > div:nth-child(11){
+      > div:nth-child(11) {
         display: block;
       }
-      > div:nth-child(12){
+      > div:nth-child(12) {
         display: none;
       }
-      > div:nth-child(13){
+      > div:nth-child(13) {
         display: block;
       }
-      > div:nth-child(14){
+      > div:nth-child(14) {
         display: none;
       }
-      > div::nth-child(15){
+      > div::nth-child(15) {
         display:block;
     }  
   }
@@ -435,13 +449,17 @@
     }
 
     .sign {
-      width: 78px;
+      width: 82px;
+      height: 36px;
       text-align: center;
       font-size: 12px;
       color: #a0e032;
       border: 2px solid #b4ec51;
       border-radius: 40px;
       margin-right: 100px;
+      p {
+        margin: 0 0 5px 2px;
+      }
     }
 
     text {

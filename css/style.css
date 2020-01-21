@@ -120,10 +120,11 @@ html, body {
 
 .start {
   text-align: center;
-  width: 121px;
-  height: 42px;
+  width: 195px;
+  height: 50px;
+  font-size: 21px;
+  font-weight: 100;
   margin-top: 35px;
-  font-size: 15px;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   color: white;
   border: 1px solid green;
@@ -169,10 +170,10 @@ html, body {
 }
 .content .today .word .start-on {
   text-align: center;
-  width: 121px;
-  height: 42px;
-  margin-top: 0px;
-  font-size: 15px;
+  width: 195px;
+  height: 50px;
+  font-size: 21px;
+  font-weight: 100;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   color: white;
   border: 1px solid green;
@@ -209,10 +210,11 @@ html, body {
 
 .start-two {
   text-align: center;
-  width: 121px;
-  height: 42px;
+  width: 195px;
+  height: 50px;
+  font-size: 21px;
+  font-weight: 100;
   margin-top: 10px;
-  font-size: 15px;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   color: white;
   border: 1px solid green;
@@ -280,10 +282,11 @@ html, body {
 
 .start-three {
   text-align: center;
-  width: 121px;
-  height: 42px;
+  width: 195px;
+  height: 50px;
+  font-size: 21px;
+  font-weight: 100;
   margin-top: 20px;
-  font-size: 15px;
   background-image: linear-gradient(to right, #429321, #b4ec51);
   color: white;
   border: 1px solid green;
@@ -310,22 +313,9 @@ html, body {
   margin-right: 15px;
 }
 
-.ti-lock {
+.icon {
   color: #2be72b;
   margin-top: 10px;
-  font-size: 25px;
-  margin-right: 15px;
-}
-
-.ti-cup {
-  color: #2be72b;
-  margin-top: 10px;
-  font-size: 25px;
-  margin-right: 15px;
-}
-
-.ti-stats-up {
-  color: #2be72b;
   font-size: 25px;
   margin-right: 15px;
 }
@@ -361,6 +351,7 @@ html, body {
   font-size: 50px;
   text-align: center;
   margin-top: 10px;
+  font-weight: 100;
 }
 .our-customer .justify-content-center {
   margin-top: 50px;
@@ -429,46 +420,46 @@ html, body {
   width: 100%;
 }
 
-.footer-mb {
+.footer {
   background-color: #39474e;
   width: 100%;
   float: left;
 }
-.footer-mb .justify-content-center {
+.footer .justify-content-center {
   color: white;
   margin-top: 10px;
   margin-bottom: 30px;
   font-size: 20px;
 }
-.footer-mb .justify-content-center .namae {
+.footer .justify-content-center .namae {
   color: #2be72b;
   margin-bottom: 10px;
   margin-left: 15px;
 }
-.footer-mb .justify-content-center .on-footer {
+.footer .justify-content-center .on-footer {
   margin-left: 15px;
 }
-.footer-mb .justify-content-center .company {
+.footer .justify-content-center .company {
   font-size: 25px;
   color: #2be72b;
 }
-.footer-mb .justify-content-center .names {
+.footer .justify-content-center .names {
   font-size: 12px;
   color: #2be72b;
 }
-.footer-mb .justify-content-center .name {
+.footer .justify-content-center .name {
   font-size: 12px;
   color: #2be72b;
 }
-.footer-mb .justify-content-center .in-names {
+.footer .justify-content-center .in-names {
   margin-top: 8px;
   font-size: 12px;
 }
-.footer-mb .justify-content-center .in-name {
+.footer .justify-content-center .in-name {
   margin-top: 8px;
   font-size: 12px;
 }
-.footer-mb .justify-content-center .col-12 .col-sm-12 {
+.footer .justify-content-center .col-12 .col-sm-12 {
   position: relative;
   width: 100%;
   padding-right: 40px;

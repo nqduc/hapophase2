@@ -78,7 +78,7 @@
   }
 
   .one-customer {
-    margin: 0 3%;
+    margin: 5px 3%;
   }
   .one-customer img {
     margin-top: 40px;
@@ -90,9 +90,7 @@
   }
   .in-heard div {
     text-align: center;
-    margin-top: 40px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 40px 15px 0 15px;
   }
   .in-heard .icon {
     font-size: 35px;
@@ -110,10 +108,11 @@
 
   .start {
     text-align: center;
-    width: 121px;
-    height: 42px;
-    margin-top: 5px;
-    font-size: 15px;
+    width: 145px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 25;
+    margin-top: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
@@ -150,11 +149,12 @@
 
   .start-on {
     text-align: center;
-    width: 121px;
-    height: 42px;
+    width: 145px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 25;
     margin-top: 35px;
     margin-left: 25px;
-    font-size: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
@@ -201,6 +201,18 @@
     margin-top: 30px;
     width: 100%;
   }
+  .members .start-three {
+    text-align: center;
+    width: 145px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 25;
+    margin-top: 40px;
+    background-image: linear-gradient(to right, #429321, #b4ec51);
+    color: white;
+    border: 1px solid green;
+    border-radius: 40px;
+  }
 
   .customers .in-customers {
     text-align: center;
@@ -229,10 +241,11 @@
   }
   .customers .start-four {
     text-align: center;
-    width: 121px;
-    height: 42px;
+    width: 145px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 25;
     margin-top: 40px;
-    font-size: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
@@ -270,12 +283,13 @@
   }
   .project .start-five {
     text-align: center;
-    width: 121px;
-    height: 42px;
+    width: 145px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 25;
     margin-top: 20px;
     margin-bottom: 25px;
     margin-left: 0px;
-    font-size: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
@@ -443,10 +457,11 @@
 
   .start {
     text-align: center;
-    width: 121px;
-    height: 42px;
+    width: 144px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 25;
     margin-top: 5px;
-    font-size: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
@@ -487,12 +502,13 @@
     padding-right: 7.69565217%;
   }
 
-  .start1 {
+  .start-one {
     text-align: center;
-    width: 121px;
-    height: 42px;
+    width: 144px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 100;
     margin-top: 45px;
-    font-size: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
@@ -705,58 +721,59 @@
     margin-left: 10px;
     padding-right: 25px;
   }
-  .project .start5 {
+  .project .start-five {
     text-align: center;
-    width: 121px;
-    height: 42px;
+    width: 144px;
+    height: 44px;
+    font-size: 18px;
+    font-weight: 100;
     margin-top: 20px;
     margin-left: 0px;
-    font-size: 15px;
     background-image: linear-gradient(to right, #429321, #b4ec51);
     color: white;
     border: 1px solid green;
     border-radius: 40px;
   }
 
-  .footer {
+  .footer-mb {
     background-color: #39474e;
     width: 100%;
     height: 179px;
     float: left;
   }
-  .footer .justify-content-center {
+  .footer-mb .justify-content-center {
     text-align: center;
     color: white;
     margin-top: 10px;
   }
-  .footer .justify-content-center .company {
+  .footer-mb .justify-content-center .company {
     font-size: 25px;
     color: #2be72b;
   }
-  .footer .justify-content-center .namae {
+  .footer-mb .justify-content-center .namae {
     text-align: left;
     color: #2be72b;
     font-size: 22px;
     margin-left: 20px;
     margin-bottom: 8px;
   }
-  .footer .justify-content-center .names {
+  .footer-mb .justify-content-center .names {
     font-size: 12px;
     color: #2be72b;
   }
-  .footer .justify-content-center .name {
+  .footer-mb .justify-content-center .name {
     font-size: 11px;
     color: #2be72b;
   }
-  .footer .justify-content-center .in-names {
+  .footer-mb .justify-content-center .in-names {
     margin-top: 8px;
     font-size: 12px;
   }
-  .footer .justify-content-center .in-name {
+  .footer-mb .justify-content-center .in-name {
     margin-top: 11px;
     font-size: 11px;
   }
-  .footer .justify-content-center .col-12 .col-sm-12 {
+  .footer-mb .justify-content-center .col-12 .col-sm-12 {
     position: relative;
     width: 100%;
     padding-right: 0px;
